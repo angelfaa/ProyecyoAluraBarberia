@@ -246,15 +246,16 @@ td,th{
         color:#000000;
     }
     header {
+        margin-top: 0;
         display:flex;
         position:fixed;
         background-color: #BBBBBB;                
         z-index: 2;
-        height:380px;
+        height:265px;
     }
     .seccionPrincipal{
         position: relative;
-        top:380px;
+        top:265px;
     }
     nav{
         position: sticky;
@@ -262,6 +263,12 @@ td,th{
     nav a{
         font-size: 19px;
         
+    }
+    .caja{
+        margin-top: -25px;
+    }
+    .caja img{
+        height:200px
     }
     .caja, .principal, .mapaContenido, .contendoDiferenciales, .video{
         width:auto;
